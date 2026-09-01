@@ -1,4 +1,4 @@
-# A Causal Hybrid Framework for Microscopic BEV Energy Consumption Prediction
+# A Causal Hybrid Framework for Microscopic BEV Energy Consumption Prediction under Real Driving Conditions
 
 This repository contains the source code associated with the research article:
 
