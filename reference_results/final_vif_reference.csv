@@ -1,0 +1,9 @@
+Variable,VIF
+Ew_drag,6.28
+Ew_roll,6.16
+Ew_grade,1.53
+Ew_inertia,1.37
+MotorTorque,1.99
+SoC,3.76
+BattTemp_max,3.4
+MotorTemp,1.16
