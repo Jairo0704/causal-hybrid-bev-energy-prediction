@@ -1,0 +1,46 @@
+# Experimental / derived datasets — never commit
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.parquet
+data/*.feather
+data/*.mat
+data/*.txt
+data/*.zip
+data/*.pkl
+data/*.pickle
+
+# Allow documentation/schema only
+!data/README.md
+!data/data_schema.csv
+
+# Generated outputs — keep local
+outputs/*
+!outputs/README.md
+
+# Python / notebook
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets / local config
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
