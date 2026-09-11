@@ -1,0 +1,16 @@
+variable,unit,description,role,original_working_name
+Trip,-,Trip identifier,split identifier,Trip
+v,m/s,Vehicle speed,candidate causal physical variable,Speed
+a,m/s^2,Longitudinal acceleration,candidate causal physical variable,Acceleration
+theta,rad,Road-grade angle,candidate causal physical variable,Road_gradient
+Ew_grade,kWh,Grade-related wheel energy,final causal physical predictor,Ew_grade
+Ew_drag,kWh,Aerodynamic-drag wheel energy,final causal physical predictor,Ew_drag
+Ew_roll,kWh,Rolling-resistance wheel energy,final causal physical predictor,Ew_roll
+Ew_inertia,kWh,Inertial wheel energy,final causal physical predictor,Ew_inertia
+APP,%,Accelerator pedal position,candidate BEV operational variable,APP
+SoC,%,Battery state of charge,final system state predictor,SoC
+BattTemp_max,degC,Maximum battery temperature,final system state predictor,BattTemp_max
+MotorSpeed,rpm,Motor speed,candidate BEV operational variable,RPM
+MotorTorque,N*m,Electric motor torque,final BEV operational predictor,MotorTorque
+MotorTemp,degC,Motor temperature,final system state predictor,MotorTemp
+E_batt_net,kWh,Microscopic net battery energy,target,E_batt_net
