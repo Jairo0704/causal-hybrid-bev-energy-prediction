@@ -45,10 +45,7 @@ observations belonging to the same driving trip.
 
 ## Data Availability
 
-The real-world BEV driving dataset used in this study is publicly
-available on Zenodo:
-
-[Zenodo DOI – to be added]
+The source code supporting the findings of this study is publicly available in this repository. The experimental real-world BEV driving data supporting the findings of this study are available from the corresponding author upon reasonable request.
 
 ## Repository Structure
 
