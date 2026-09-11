@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated research article."
+title: "A Causal Hybrid Framework for Microscopic BEV Energy Consumption Prediction under Real Driving Conditions"
+type: software
+version: 1.0.0
+date-released: 2026-09-11
+license: MIT
+
+repository-code: "https://github.com/Jairo0704/causal-hybrid-bev-energy-prediction"
+
+authors:
+  - given-names: "Jairo"
+    family-names: "Castillo-Calderón"
+    orcid: "https://orcid.org/0000-0002-5321-4518"
+    affiliation: "PhD Program in Mechanical Engineering, University of Zaragoza; Scientific Experiences in Mobility, Vehicles and Transport (eX-MoVeT) Research Group, Faculty of Energy, Industries and Non-Renewable Natural Resources, Universidad Nacional de Loja"
+
+  - given-names: "Emilio"
+    family-names: "Larrodé-Pellicer"
+    orcid: "https://orcid.org/0000-0002-5857-8003"
+    affiliation: "Department of Mechanical Engineering, University of Zaragoza"
+
+preferred-citation:
+  type: article
+  title: "A Causal Hybrid Framework for Microscopic BEV Energy Consumption Prediction under Real Driving Conditions"
+  authors:
+    - given-names: "Jairo"
+      family-names: "Castillo-Calderón"
+      orcid: "https://orcid.org/0000-0002-5321-4518"
+
+    - given-names: "Emilio"
+      family-names: "Larrodé-Pellicer"
+      orcid: "https://orcid.org/0000-0002-5857-8003"
+
+  year: 2026
