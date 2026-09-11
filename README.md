@@ -1,6 +1,6 @@
 # A Causal Hybrid Framework for Microscopic BEV Energy Consumption Prediction under Real Driving Conditions
 
-This repository contains the source code associated with the research article:
+This repository contains the computational code associated with the research article:
 
 **"A Causal Hybrid Framework for Microscopic BEV Energy Consumption Prediction under Real Driving Conditions"**
 
@@ -73,8 +73,6 @@ causal-hybrid-bev-energy-prediction/
 ├── CITATION.cff
 ├── requirements.txt
 ├── .gitignore
-├── GITHUB_UPLOAD_CHECKLIST.md
-├── FINAL_CODE_AUDIT.md
 │
 ├── data/
 │   ├── README.md
@@ -83,10 +81,6 @@ causal-hybrid-bev-energy-prediction/
 ├── notebooks/
 │   ├── 01_modeling_pipeline.ipynb
 │   └── 02_correlation_vif.ipynb
-│
-├── src/
-│   └── dem/
-│       └── Algoritmo_Altitude.m
 │
 ├── reference_results/
 │   ├── model_performance_reference.csv
@@ -135,15 +129,11 @@ This notebook includes:
 - variance inflation factor (VIF) analysis for the initial candidate variables; and
 - post-selection VIF analysis for the final eight-predictor set.
 
-### DEM-based elevation and road-grade processing
+### DEM-based elevation and road-grade reconstruction
 
-The DEM-based elevation reconstruction and road-grade processing algorithm is provided in:
+The DEM-based elevation reconstruction and road-grade estimation procedure used to derive the topographic information required by the causal modeling framework is described in detail in **Appendix A of the associated manuscript**.
 
-```text
-src/dem/Algoritmo_Altitude.m
-```
-
-This code supports the topographic preprocessing methodology described in the associated manuscript.
+The corresponding software implementation is not included in the current public release of this repository.
 
 ## Expected Local Dataset
 
@@ -165,7 +155,7 @@ The repository `.gitignore` is configured to prevent experimental and derived ro
 
 ## Installation
 
-The Python dependencies required to run the analysis are listed in:
+The Python dependencies required to run the publicly available computational analyses are listed in:
 
 ```text
 requirements.txt
@@ -177,7 +167,7 @@ They can be installed using:
 pip install -r requirements.txt
 ```
 
-The machine-learning and statistical analyses were implemented in Python. The DEM-based elevation and road-grade processing algorithm is provided separately in MATLAB.
+The publicly available machine-learning and statistical analyses were implemented in Python.
 
 ## Running the Analysis
 
@@ -212,20 +202,26 @@ These files contain only aggregate results and do not include row-level experime
 
 ## Reproducibility Scope
 
-This repository provides the source code and methodological workflow required to reproduce the computational analyses reported in the associated study.
+This repository provides the computational code for the machine-learning modeling, statistical analysis, model evaluation, and associated analytical workflow reported in the study.
+
+The DEM-based elevation reconstruction and road-grade estimation procedure is documented in Appendix A of the associated manuscript, while its software implementation is not included in the current public release.
 
 Because the experimental real-world BEV driving dataset is not publicly distributed, the repository provides **code transparency and conditional computational reproducibility**. Full numerical reproduction requires authorized access to the experimental dataset.
 
-## Data Availability
+## Data and Code Availability
 
-The source code supporting the findings of this study is publicly available in this repository. The experimental data supporting the findings of this study are available from the corresponding author upon reasonable request.
+The source code used for the machine-learning modeling, statistical analysis, and model evaluation performed in this study is publicly available in this repository.
+
+The DEM-based elevation reconstruction and road-grade estimation procedure is described in Appendix A of the associated manuscript.
+
+The experimental data supporting the findings of this study are available from the corresponding author upon reasonable request.
 
 ## Citation
 
-If you use this code or methodology, please cite the associated research article.
+If you use the publicly available code or methodology provided in this repository, please cite the associated research article.
 
 Citation information and the article DOI will be added upon publication.
 
 ## License
 
-The source code in this repository is distributed under the MIT License. See the `LICENSE` file for details.
+The publicly available source code in this repository is distributed under the MIT License. See the `LICENSE` file for details.
